@@ -1,5 +1,45 @@
 # Changelog
 
+## [0.13.0](https://github.com/lumirlumir/fork-json/compare/json-v0.12.0...json-v0.13.0) (2025-05-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* Update package types for better reuse ([#91](https://github.com/lumirlumir/fork-json/issues/91))
+
+### Features
+
+* Add `types` to exports ([#84](https://github.com/lumirlumir/fork-json/issues/84)) ([d9eab9e](https://github.com/lumirlumir/fork-json/commit/d9eab9ec3a733b561f55235eb71a611c7d84ebbb))
+* Add allowTrailingCommas option for JSONC ([#42](https://github.com/lumirlumir/fork-json/issues/42)) ([c94953b](https://github.com/lumirlumir/fork-json/commit/c94953b702a1d9c0c48249f1bda727e2130841c8))
+* Add getLoc and getRange to JSONSourceCode ([#13](https://github.com/lumirlumir/fork-json/issues/13)) ([2225f63](https://github.com/lumirlumir/fork-json/commit/2225f630284b601d4cfc4ecc19148121d6e11a3f))
+* Add JSON plugin ([#1](https://github.com/lumirlumir/fork-json/issues/1)) ([1976f2c](https://github.com/lumirlumir/fork-json/commit/1976f2c48b1da0cfba2d5ad2553f76182c147621))
+* Add JSON5 support ([#15](https://github.com/lumirlumir/fork-json/issues/15)) ([ea8dbb5](https://github.com/lumirlumir/fork-json/commit/ea8dbb53e1aa54dc9a6027393109c2988a3209f5))
+* Add JSONLanguage#visitorKeys ([#4](https://github.com/lumirlumir/fork-json/issues/4)) ([d8afca4](https://github.com/lumirlumir/fork-json/commit/d8afca4fe72ae025c0acec523c0d6d9d9aaa5a49))
+* Add meta info to plugin ([#12](https://github.com/lumirlumir/fork-json/issues/12)) ([f419757](https://github.com/lumirlumir/fork-json/commit/f419757b837fce5e37b29a2afe0b2885590ca8bd))
+* Add sort-keys rule ([#76](https://github.com/lumirlumir/fork-json/issues/76)) ([e68c247](https://github.com/lumirlumir/fork-json/commit/e68c247be11e1ea3fad20737f3e3672b855bc3ff))
+* Add support for config comments ([#27](https://github.com/lumirlumir/fork-json/issues/27)) ([723ddf4](https://github.com/lumirlumir/fork-json/commit/723ddf4cc2593ce0469231a76f6dcf4dfb58c3e3))
+* Add top-level-interop rule ([#69](https://github.com/lumirlumir/fork-json/issues/69)) ([af56d6c](https://github.com/lumirlumir/fork-json/commit/af56d6ce6bff9d073aedd7f07c3ec0248ec3b4e9))
+* Catch more unsafe numbers ([#71](https://github.com/lumirlumir/fork-json/issues/71)) ([5ffc7c0](https://github.com/lumirlumir/fork-json/commit/5ffc7c0ead359c60a0cb5b2b4fdb522846933853))
+* enable `no-unsafe-values` and add it to recommended configuration ([#51](https://github.com/lumirlumir/fork-json/issues/51)) ([72273f5](https://github.com/lumirlumir/fork-json/commit/72273f5dc0461505989a278a1f16b88d64bc8d7d))
+* Export internal constructs for other plugin authors ([#17](https://github.com/lumirlumir/fork-json/issues/17)) ([ad729f0](https://github.com/lumirlumir/fork-json/commit/ad729f0c60d42a84b2c87da52a6d2456b5211b48))
+* rule no-unnormalized-keys ([#63](https://github.com/lumirlumir/fork-json/issues/63)) ([c57882e](https://github.com/lumirlumir/fork-json/commit/c57882e1c3b51f00b94da4ed9b40d5cf2e4d6847))
+* rule no-unsafe-values ([#30](https://github.com/lumirlumir/fork-json/issues/30)) ([6988e5c](https://github.com/lumirlumir/fork-json/commit/6988e5c1445bbca10b1988ca2d9949b4bc66378c))
+* Update package types for better reuse ([#91](https://github.com/lumirlumir/fork-json/issues/91)) ([dce4601](https://github.com/lumirlumir/fork-json/commit/dce4601b1a40ceaeb4b61fbcbef0170a67b73e37))
+
+
+### Bug Fixes
+
+* add type tests ([#65](https://github.com/lumirlumir/fork-json/issues/65)) ([a6c0bc9](https://github.com/lumirlumir/fork-json/commit/a6c0bc9db1e265484c275860fdb41fcfd8aefaf2))
+* Don't require ESLint ([#25](https://github.com/lumirlumir/fork-json/issues/25)) ([dd112e1](https://github.com/lumirlumir/fork-json/commit/dd112e1ccf514a87a68d5068882ec7393aa6dd9b))
+* expose `plugin.configs` in types ([#59](https://github.com/lumirlumir/fork-json/issues/59)) ([1fd0452](https://github.com/lumirlumir/fork-json/commit/1fd0452e97554ec4e696d2105f68df36fbe7f260))
+* make types usable in CommonJS ([#77](https://github.com/lumirlumir/fork-json/issues/77)) ([41ef891](https://github.com/lumirlumir/fork-json/commit/41ef89142ae40c6b5a4ee1c69d4db406ca5ef529))
+* release-please (again) ([#7](https://github.com/lumirlumir/fork-json/issues/7)) ([5ef7c6c](https://github.com/lumirlumir/fork-json/commit/5ef7c6c642f92912328e20bb2cb6b055c302f034))
+* Set initial release version in release-please-config.json ([#5](https://github.com/lumirlumir/fork-json/issues/5)) ([64f4db5](https://github.com/lumirlumir/fork-json/commit/64f4db5e68ab01be6acc9aad9b389bda256126a5))
+* Update `types.ts` for compatibility with `verbatimModuleSyntax` ([#88](https://github.com/lumirlumir/fork-json/issues/88)) ([d099c78](https://github.com/lumirlumir/fork-json/commit/d099c78318f8ca9a426d233717728304418425a1))
+* Update types and apply to all rules ([#86](https://github.com/lumirlumir/fork-json/issues/86)) ([10882ff](https://github.com/lumirlumir/fork-json/commit/10882ffe9c39cdd866be51801f9950f4a010cd87))
+* Upgrade Momoa to fix parsing errors ([#50](https://github.com/lumirlumir/fork-json/issues/50)) ([3723a07](https://github.com/lumirlumir/fork-json/commit/3723a071a3bae296d2dbe66684b9d62832f099ad))
+* Use updated types from @eslint/core ([#66](https://github.com/lumirlumir/fork-json/issues/66)) ([460e7c7](https://github.com/lumirlumir/fork-json/commit/460e7c707ed30fc41df280e40f300bafd5a3cae2))
+
 ## [0.12.0](https://github.com/eslint/json/compare/json-v0.11.0...json-v0.12.0) (2025-04-16)
 
 
